@@ -8,4 +8,5 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
     console.log(`Server running on port number ${port}/`);
 });
-module. Exports = server;
+module.exports = server;
+
